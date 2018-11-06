@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Chakra";
+    src: url("fonts/ChakraPetch-Medium.ttf") format('truetype');
+    src: url("fonts/ChakraPetch-Bold.ttf") format('truetype');
+}
+
+
+body{
+width: 800px;
+height: 600px;
+background: url(images/wall1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+display:flex;
+align-items: center;
+    justify-content: center;
+}
+
+
+#quote {
+    color : white;
+    font-family: "Chakra";
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
